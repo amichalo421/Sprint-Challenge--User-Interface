@@ -238,10 +238,33 @@ footer nav a {
     text-decoration: none;
 }
 
-/* ///ABOUT TEST/// */
+/* ///ABOUT HEADER/// */
 
 .container about-page{
     background-color: pink;
 
 }
+
+/* //ABOUT MIDDLE// */
+
+.contmiddle1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contmiddle2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* About middle bottom */
+
+/* //ABOUT FOOTER */
+
 
