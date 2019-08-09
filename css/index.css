@@ -259,15 +259,18 @@ footer nav a {
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
+    background-color: none;
 
 }
 
     /* correction pic, text, and button */
     .constrat {
-        display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+    background-color: blue;
+    border-top: 1px dashed black;
 
     }
 
@@ -276,6 +279,8 @@ footer nav a {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+    background-color: red;
+    border-top: 1px dashed black;
 
     }
 
@@ -284,6 +289,7 @@ footer nav a {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    background-color: none;
 
 }
     /* Correction for pic, text, button */
@@ -292,6 +298,8 @@ footer nav a {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+    background-color: yellow;
+    border-top: 1px dashed black;
 
     }
 
@@ -300,6 +308,8 @@ footer nav a {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+    background-color: teal;
+    border-top: 1px dashed black;
 
     }
 
@@ -307,16 +317,22 @@ footer nav a {
     border-color: black;
     border-size: 5px;
     padding: 5px;
+    background-color: lavender;
+    border-radius: 12px;
+
 
 }
 
 /* About middle bottom */
 
 .bottom {
-    margin-bottom: 5px;
-    margin-top: 10px;
     padding-top: 10px;
+    margin-top: 10px;
     border-top: 1px dashed black;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    
+    
 }
 
 /* //ABOUT FOOTER */
