@@ -71,6 +71,12 @@ p {
     margin: 0 auto;
 }
 
+/* //HEADER CONTENT// */
+
+
+/* //PAGE CONTENT */
+
+    /* Top Content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,12 +85,14 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+    /* Middle Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +120,7 @@ p {
     justify-content: center;
 }
 
+    /* Bottom Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +135,8 @@ p {
     padding-right: 0;
 }
 
+
+/* //FOOTER// */
 footer {
     width: 100%;
     background: black;
