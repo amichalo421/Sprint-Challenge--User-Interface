@@ -238,6 +238,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* ///////////////////////////////ABOUT//////////////////////////// */
 /* ///ABOUT HEADER/// */
 
 .container about-page{
@@ -245,25 +246,78 @@ footer nav a {
 
 }
 
+.contabout{
+    margin-bottom: 20pt;
+    padding: 0 1%;
+    padding-bottom: 5px;
+}
+
 /* //ABOUT MIDDLE// */
 
 .contmiddle1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
 
 }
+
+    /* correction pic, text, and button */
+    .constrat {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+    }
+
+    .consthow {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+    }
 
 .contmiddle2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+
+}
+    /* Correction for pic, text, button */
+    .constplaces {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+    }
+
+    .constcollab {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+    }
+
+.learn {
+    border-color: black;
+    border-size: 5px;
+    padding: 5px;
 
 }
 
 /* About middle bottom */
+
+.bottom {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
 
 /* //ABOUT FOOTER */
 
