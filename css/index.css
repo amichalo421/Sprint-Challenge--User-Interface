@@ -73,6 +73,46 @@ p {
 
 /* //HEADER CONTENT// */
 
+header div img{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+
+}
+
+header {
+    width: 100%;
+    background:white;
+    margin-bottom: 20px;
+
+}
+
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 2%;
+
+}
+
+.topnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%; 
+    font-size: 14px;
+    background-color: white
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
 
 /* //PAGE CONTENT */
 
