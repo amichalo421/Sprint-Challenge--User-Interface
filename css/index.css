@@ -125,7 +125,6 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -252,76 +251,90 @@ footer nav a {
     padding-bottom: 5px;
 }
 
+h1 {
+    font-size: 20px;
+    padding: 20px 10px 10px 0px;
+}
+
+
+
 /* //ABOUT MIDDLE// */
 
 .contmiddle1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    background-color: none;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
+background-color: none;
 
 }
 
     /* correction pic, text, and button */
-    .constrat {
+    .contstrat {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: baseline;
-    background-color: blue;
-    border-top: 1px dashed black;
-
+    /* background-color: blue; */
+    border-bottom: 1px dashed lightgrey;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 20px 10px 10px;
     }
 
-    .consthow {
-        display: flex;
+    .conthow {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: baseline;
-    background-color: red;
-    border-top: 1px dashed black;
-
+    /* background-color: red; */
+    border-bottom: 1px dashed lightgrey;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 25px 10px 10px;
     }
+
 
 .contmiddle2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    background-color: none;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
+background-color: none;
 
 }
     /* Correction for pic, text, button */
-    .constplaces {
+    .contplaces {
         display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    background-color: yellow;
-    border-top: 1px dashed black;
-
+    /* background-color: yellow; */
+    border-bottom: 1px dashed lightgrey;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 20px 10px 10px;
     }
 
-    .constcollab {
-        display: flex;
+    .contcollab {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    background-color: teal;
-    border-top: 1px dashed black;
-
+    /* background-color: teal; */
+    border-bottom: 1px dashed lightgrey;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 20px 10px 10px;
     }
 
+/* Fine Tuning */
 .learn {
-    border-color: black;
-    border-size: 5px;
-    padding: 5px;
-    background-color: lavender;
+    border: 2px solid black;
+    padding: 15px 30px 15px 30px;
+    margin: 20px 10px 20px 0px;
+    /* background-color: white; */
     border-radius: 12px;
-
-
 }
+
+
+
 
 /* About middle bottom */
 
